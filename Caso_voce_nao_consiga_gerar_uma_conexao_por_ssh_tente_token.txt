@@ -1,0 +1,29 @@
+Primeiro, precisamos saber como configurar o token de acesso na conta do GITHUB para a linha de comando.
+Vamos acessar as configurações do Github
+
+Em seguida, na barra de menu do lado esquerdo, você verá “Developer Setting”. 
+
+Clique nele e, em seguida, clique em “Personal access tokens”
+
+Em seguida clique em Generate new token
+
+Após isso você ira para a página de novo Token, certifique-se que a opção “repo” está marcada, 
+apenas esta opção é necessária.
+
+E pronto! Será gerado um token pra você
+
+Copie o token
+
+Tente acessar o github pelo git novamente.
+
+Quando ele pedir para entrar na conta do github, acesse a opção de token
+
+cole o token copiado.
+
+Em seguida ele vai pedir para digitar o nome de usuário, faça isso.
+
+Depois ele vai pedir a senha, mas não utilize a sua senha comum, aqui é que está o pulo do gato!!!
+
+Invés da senha comum, utilize o seu token que foi copiado.
+
+E voila, git conectado com o github.
